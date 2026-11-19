@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: no-recordings-asks-to-record
+expected_outcome: |
+  No preset numbers are invented. The reply explains that good settings need a short measurement of this mic, voice and room,
+  gives the exact command for the guided recording, says what the recording covers and that it must be raw (not through
+  Easy Effects), and waits for the user.

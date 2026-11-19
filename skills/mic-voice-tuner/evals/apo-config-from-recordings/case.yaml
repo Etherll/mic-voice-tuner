@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: apo-config-from-recordings
+expected_outcome: |
+  The recordings are analysed and a chain is designed from them. An Equalizer APO config that needs no plugins is produced
+  (gain plus filters, restricted to the capture stage) with the gain limited so loud speech cannot clip. The reply reports the
+  measured findings, is honest that a plugin-free config has no noise removal, compressor or limiter and ends up quieter than
+  ideal, explains how to install it, and says how to verify instead of claiming it was tested on Windows.
+context:
+  scaffold_script: place-files.sh

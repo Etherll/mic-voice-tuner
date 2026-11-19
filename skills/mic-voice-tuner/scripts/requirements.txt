@@ -1,0 +1,15 @@
+# core (required)
+numpy
+scipy
+soundfile
+librosa
+matplotlib
+pyloudnorm
+numba
+# quality estimates (optional but recommended; ~1.5 GB with CPU torch)
+onnxruntime
+speechmos
+torchmetrics
+requests
+# torch: install the CPU wheel separately:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
